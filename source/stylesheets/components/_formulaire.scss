@@ -1,0 +1,42 @@
+.body-contact {
+  background-color: #DF1222;
+}
+
+.contact {
+  text-align: center;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.contact p {
+  text-align: center;
+  color: #F9F9F9;
+  font-size: 12px;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+}
+
+.contact-links a {
+  color: #F9F9F9;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+}
+.contact-links a:hover {
+  opacity: 0.6;
+}
+
+.contact-links-mail {
+margin-right: 30px
+}
+
+.contact-links-terms {
+margin-left: 30px
+}

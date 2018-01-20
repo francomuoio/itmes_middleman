@@ -1,0 +1,52 @@
+.card-itmes {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  text-align: center;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://cloudinary.com/console/media_library#/dialog/image/upload/xyzj6aov57mib7hj2cva');
+  background-size: 300px;
+}
+
+.card-image-itmes {
+  position: relative;
+  height: 250px;
+}
+
+.card-logo-itmes {
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  height: 200px;
+}
+
+
+.card-description-itmes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-description-itmes h2 {
+  font-size: 36px;
+  color: #F9F9F9;
+}
+
+.card-fr-itmes {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  height: 30px;
+}
+
+.card-en-itmes {
+  position: absolute;
+  right: 85px;
+  top: 30px;
+  height: 30px;
+}
