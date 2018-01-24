@@ -11,10 +11,13 @@
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
   </head>
+
   <body>
     <%= partial "layouts/banner" %>
     <%= partial "layouts/navbar" %>
-    <%= yield %>
+    <div class= "wrapper">
+      <%= yield %>
+    </div>
     <%= partial "layouts/formulaire" %>
     <%= partial "layouts/footer" %>
   </body>
