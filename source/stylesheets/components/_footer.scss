@@ -2,7 +2,7 @@
   background:  #101875;
   display: flex;
   align-items: center;
-  height: 90px;
+
   color: #F9F9F9;
   text-align: center;
   justify-content: center;
@@ -21,6 +21,7 @@
   padding: 0px 10px;
   text-align: center;
 }
+
 .footer-links a:hover {
   opacity: 0.6;
 }
@@ -32,4 +33,14 @@ font-size: 11px;
 .footer-logo_v-itmes {
   height: 50px;
   padding-top: 10px;
+}
+
+.tousfooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contenufooter {
+ padding-left: 20px;
 }
