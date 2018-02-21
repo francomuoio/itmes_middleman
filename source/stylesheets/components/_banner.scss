@@ -25,6 +25,15 @@
   height: 200px;
 }
 
+@media only screen and (max-width:800px) {
+.card-logo-itmes {
+  position: absolute;
+  left: -7px;
+  top: 25px;
+  height: 200px;
+}
+}
+
 
 .card-description-itmes {
   display: flex;
