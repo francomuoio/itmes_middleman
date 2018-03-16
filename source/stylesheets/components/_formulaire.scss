@@ -1,25 +1,13 @@
-.body-contact {
+.contact {
+  padding: 30px 30px;
+  width: 100%;
   background-color: #DF1222;
 }
 
-.contact {
-  text-align: center;
-  background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 120px;
-}
+.contact-card {
 
-.contact p {
-  text-align: center;
-  color: #F9F9F9;
-  font-size: 12px;
-}
-
-.contact-links {
-  display: flex;
-  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .contact-links a {
@@ -27,18 +15,16 @@
   opacity: 1;
   text-decoration: none;
   font-size: 12px;
-  text-align: center;
 }
+
 .contact-links a:hover {
-  // opacity: 0.6;
-  color: black;
-  height: 100px;
+  opacity: 0.5;
 }
 
-.contact-links-mail {
-margin-right: 30px
+.contact-content {
+  color: #F9F9F9;
+  font-size: 13px;
+  margin: 10px 15px;
+  font-weight: lighter;
 }
 
-.contact-links-terms {
-margin-left: 30px
-}

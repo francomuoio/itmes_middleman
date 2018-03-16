@@ -1,5 +1,4 @@
 <div class="container">
-
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-8 col-md-offset-2">
       <div class="title">
@@ -11,46 +10,41 @@
 
   <div class="row">
     <div class="col-xs-12 col-sm-4">
-      <div class="card">
-        <div class="image-opacity-itmes">
-        <%= image_tag 'etat-des-lieux.jpg', height: 175, width: 360, crop: :fill %>
-        </div>
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "card2.png" %>');">
         <div class="card-description">
-          <button type="button" class="bouton-modal-itmse" data-toggle="modal" data-target="#myModal-1">
-          <h2 id="centress-1-itmes">Analyse</h2>
+        <button type="button" class="bouton-modal-itmes" data-toggle="modal" data-target="#myModal-1">
+          <h2>Analyse</h2>
+          <p>En savoir +</p>
+        </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "card5.png" %>');">
+        <div class="card-description">
+          <button type="button" class="bouton-modal-itmes" data-toggle="modal" data-target="#myModal-2">
+            <h2>Conception</h2>
+            <p>En savoir +</p>
           </button>
         </div>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-4">
-      <div class="card">
-        <div class="image-opacity-itmes">
-          <%= image_tag 'hommeturbine.png', height: 175, width: 360 %>
-        </div>
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%=image_path "card8.png" %>');">
         <div class="card-description">
-          <button type="button" class="bouton-modal-itmse" data-toggle="modal" data-target="#myModal-2">
-          <h2 id="centress-2-itmes">Conception</h2>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-4">
-      <div class="card">
-        <div class="image-opacity-itmes">
-          <%= image_tag 'azerty.jpg', height: 175, width: 360 %>
-        </div>
-        <div class="card-description">
-          <button type="button" class="bouton-modal-itmse" data-toggle="modal" data-target="#myModal-3">
-            <h2 id="centress-3-itmes">Fabrication</h2>
+          <button type="button" class="bouton-modal-itmes text-left" data-toggle="modal" data-target="#myModal-3">
+            <h2>Fabrication</h2>
+            <p>En savoir +</p>
           </button>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Button trigger modal -->
+
+<!-- Button trigger modal -->
 
   <!-- Modal -->
   <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
