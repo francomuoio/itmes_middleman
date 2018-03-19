@@ -17,6 +17,16 @@
   font-size: 14px;
 }
 
+.content-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color:#404040;
+}
+
+.content-links a:hover{
+  opacity: 0.6;
+}
+
 .image {
  margin-bottom: 70px;
  text-align: center;
