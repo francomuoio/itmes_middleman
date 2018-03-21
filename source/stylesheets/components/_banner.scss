@@ -34,6 +34,14 @@
 }
 }
 
+@media only screen and (max-width:600px) {
+.card-logo-itmes {
+    position: absolute;
+    left: -4px;
+    top: 66px;
+    height: 123px;
+}
+}
 
 .card-description-itmes {
   display: flex;
